@@ -1,0 +1,47 @@
+html {
+	height: 100%;
+	margin: 0 auto;
+}
+
+body {
+	background: linear-gradient(to right bottom, #881c86, #25a257);
+	overflow: hidden;
+
+}
+
+button {
+	background-color: hsla(195, 81%, 38%, 1);
+	border: 1px solid white;
+	border-radius: 5px;
+	display: block;
+	margin: 100px auto;
+	margin-bottom: 100px;
+	width: 120px;
+	height: 55px;
+	font-size: 20px;
+	font-family: helvetica;
+	box-shadow: 1px 1px 2px #888888;
+
+}
+
+.container {
+	position: relative;
+	left: 50%;
+
+}
+
+.boxCol {
+	position: relative;
+	left:  -400px;
+	clear: left;
+	float: left;
+	border: 1px solid;
+}
+
+.boxRow {
+	position: relative;
+	left: -400px;
+	/*margin-left: -400px;*/
+	float: left;
+	border: 1px solid;
+}

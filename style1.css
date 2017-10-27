@@ -1,0 +1,43 @@
+html {
+	height: 100%;
+	margin: 0 auto;
+}
+
+body {
+	background: linear-gradient(to right bottom, #881c86, #25a257);
+	overflow: hidden;
+
+}
+
+button {
+	border: 1px solid white;
+	width: 120px;
+	height: 45px;
+	display: block;
+	margin: 100px;
+	margin-bottom: 50px;
+	background-color: hsla(195, 81%, 38%, 1);
+	border-radius: 5px;
+	box-shadow: 1px 1px 2px #888888;
+}
+
+.clear {
+	position: relative;
+	left: 50%;
+
+}
+
+.boxRow {
+	position: relative;
+	left: 800px;
+	float: left;
+	border: 1px solid;
+}
+
+.boxCol {
+	position: relative;
+	left: 800px;
+	clear: left;
+	float: left;
+	border: 1px solid;
+}
